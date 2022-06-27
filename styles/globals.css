@@ -1,0 +1,187 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background: url(../public/images/background3.jpg) center center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.headerCont {
+  border-bottom: 1px solid #1d1d1d;
+  background-color: rgba(13, 13, 19, 0.5);
+}
+
+.content {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  margin-right: 50px;
+}
+
+.menu ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu ul li {
+  font-size: 14px;
+  margin-left: 32px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu ul li:hover {
+  color: #9d9d9d;
+  border-bottom: 1px solid #9d9d9d;
+
+}
+
+.logo {
+  width: 200px;
+  height: 30px;
+  background-image: url(../public/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.corners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 65px;
+  background:
+    linear-gradient(to right, #6A6A6A 5px, transparent 0, transparent calc(100% - 5px), #6A6A6A 0) 0 0 / 100% 1px no-repeat,
+    linear-gradient(to right, #6A6A6A 5px, transparent 0, transparent calc(100% - 5px), #6A6A6A 0) 0 100% / 100% 1px no-repeat,
+    linear-gradient(to bottom, #6A6A6A 5px, transparent 0, transparent calc(100% - 5px), #6A6A6A 0) 0 0 / 1px 100% no-repeat,
+    linear-gradient(to bottom, #6A6A6A 5px, transparent 0, transparent calc(100% - 5px), #6A6A6A 0) 100% 0 / 1px 100% no-repeat;
+  border: 1px solid #1D1D1D;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.corners:hover {
+  background:
+  linear-gradient(to right, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 0 0 / 100% 1px no-repeat,
+  linear-gradient(to right, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 0 100% / 100% 1px no-repeat,
+  linear-gradient(to bottom, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 0 0 / 1px 100% no-repeat,
+  linear-gradient(to bottom, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 100% 0 / 1px 100% no-repeat;
+}
+
+.maincontent {
+  min-height: 91vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline{
+  /* padding-left: 170px; */
+}
+
+.firstString {
+  text-transform: uppercase;
+  font-size: 40px;
+  background: linear-gradient(45deg, #fff, #eb4924);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.planet {
+  margin-bottom: 50px;
+  background: linear-gradient(45deg, #fff, #eb4924);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.begin {
+  font-size: 14px;
+}
+
+.begin:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.profit {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -40px;
+}
+
+.profit:nth-child(2n) {
+  margin-right: 0;
+}
+
+.item1, .item2, .item3, .item4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.item1 {
+  background-image: linear-gradient(153.43deg, transparent 50%, rgba(255, 255, 255, 0.145));
+}
+
+.item2 {
+  background-image: linear-gradient(225deg, transparent 50%, rgba(255, 255, 255, 0.145));
+}
+
+.item3 {
+  background-image: linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, 0.145));
+}
+
+.item4 {
+  background-image: linear-gradient(298deg, transparent 50%, rgba(255, 255, 255, 0.145));
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover {
+  opacity: 1;
+}
+
+.bigLetter {
+  font-size: 51px;
+  font-weight: 600;
+  margin: 0;
+}
