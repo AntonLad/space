@@ -60,6 +60,26 @@ a {
 
 }
 
+.mobileMenu {
+  display: none;
+  float: right;
+  padding-top: 11px;
+}
+
+.mobileMenu-link {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin-left: 32px;
+}
+
+.mobileMenu-link:hover {
+  color: #7db1ff;
+  border-bottom: 1px solid;
+  background: none !important;
+}
+
 .logo {
   width: 200px;
   height: 30px;
@@ -106,7 +126,7 @@ a {
 }
 
 .headline{
-  /* padding-left: 170px; */
+  margin-left: 20px;
 }
 
 .firstString {

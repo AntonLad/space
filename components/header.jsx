@@ -1,4 +1,6 @@
 import React from 'react'
+import Navigation from '../components/navigation/navigation'
+import MobileNavigation from '../components/navigation/mobile-navigation'
 
 export const Header = () => {
   return (
@@ -8,7 +10,9 @@ export const Header = () => {
             <div className="corners">
               <div className="logo"></div>
             </div>
-            <div className="menu">
+            <Navigation />
+            <MobileNavigation />
+            {/* <div className="menu">
               <ul>
                 <li>Главная</li>
                 <li>Технологии</li>
@@ -17,7 +21,7 @@ export const Header = () => {
                 <li>О компании</li>
                 <li>Контакты</li>
               </ul>
-            </div>
+            </div> */}
           </div>  
         </div>
       </div>
